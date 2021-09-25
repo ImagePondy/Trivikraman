@@ -1,0 +1,326 @@
+.container{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 2100px;
+    margin: auto;
+    padding: 1%;
+    overflow: hidden;
+}
+.box{
+    width: 100%;
+    height: 50px ;
+   
+}
+.logo{
+    width: 8%;
+    height: 65px;
+    margin: auto;
+    margin-left: 20px;
+    float: left;
+    background-image: url(./Images/Logo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.logoname{
+    width: 13%;
+    height:40px;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    background-image: url(./Images/logoname.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.header{
+    width: 75%;
+    height: 50px;
+    margin-left:5px;
+    float: right;  
+    text-align: center;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li a{
+    padding: 8px 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.header ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+.options{
+    width: 65%;
+    height:50px;
+    margin: auto;
+    position: sticky;
+}
+.options li a {
+    display: block;
+    color: #000;
+    padding: 8px 10px;
+}
+.options ul li {
+    list-style-type: none;
+  }
+.options li a:hover {
+    background-color: #555;
+    color: white;
+}
+.dropbtn {
+    background-color: #079cff;
+    color: white;
+    padding: 6px 8px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+	
+} 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+}  
+.dropdown-content a {
+    color: black;
+    text-decoration: none;  
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.btn{
+    background-color: rgb(86, 177, 252);
+    padding: 4px 6px;
+    color: white;
+}
+#search{
+    width: 240px;
+    height: 30px;
+	position:relative;
+	left:80%;
+	top: -51px;
+
+}
+.bbox{
+    border: 1px solid white;
+	/* position:right; */
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(218, 216, 216);
+}
+.box1{
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    width: 270px;
+    height: 270px;
+    margin: 40px 0px 0px 100px ;
+    float: left; 
+    border-radius: 10px; 
+}
+.order{
+    background-image: url(./Images/img31.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.textbox{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;  
+
+}
+.box2{
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    width: 270px;
+    height: 270px;
+    margin: 40px 0px 0px 40px ;
+    float: left;
+    border-radius: 10px; 
+}
+.Service{
+    background-image: url(./Images/img32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.textbox{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;   
+}
+.box3{
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    width: 270px;
+    height: 270px;
+    margin: 40px 0px 0px 40px ;
+    float: left;
+    border-radius: 10px; 
+}
+.Account{
+    background-image: url(./Images/img33.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.textbox{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;   
+}
+.clearfix{
+    clear: both;
+}
+.box4{
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    width: 270px;
+    height: 270px;
+    margin: 70px 0px 0px 260px ;
+    float: left;
+    border-radius: 10px; 
+}
+.Contact{
+    background-image: url(./Images/img34.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.textbox{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;   
+}
+.box5{
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    width: 270px;
+    height: 270px;
+    margin: 70px 0px 0px 60px ;
+    float: left;
+    border-radius: 10px; 
+}
+.Help{
+    background-image: url(./Images/img35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+.textbox{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;   
+}
+.footer{
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+    width: 100%;
+    height: 180px;
+    margin: 220px auto;
+}
+.f1{
+    width: 70px;
+    height: 170px;
+    margin: 4px 4px auto;
+    padding: 1%;
+    float: left;
+}
+.f1 a{
+    display: inline-block;
+    padding: 2px ;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.f1 a:hover{
+    text-decoration: underline;
+}
+.f2{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 300px;
+    padding: 1%;
+    height: 150px;
+    float: left;
+    margin: 4px 4px auto;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+.logobox{
+    width: 300px;
+    padding: 1%;
+    height: 150px;
+    float: left;
+    margin: 4px 6px auto;
+    background-image: url(./Images/logodesign.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+.image{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(./Images/img36.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image1{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(./Images/img38.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid white ;
+    border-radius: 5px;
+}
